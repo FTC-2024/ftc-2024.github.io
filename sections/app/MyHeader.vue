@@ -9,7 +9,7 @@
         class="mr-3"
       ></v-img>
       <v-toolbar-title class="white--text" :class="brandNameFontWeight"
-        >OpenPack Dataset</v-toolbar-title
+        >FishTrackingChallenge2024</v-toolbar-title
       >
 
       <v-spacer></v-spacer>

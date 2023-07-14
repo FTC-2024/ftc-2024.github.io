@@ -15,18 +15,20 @@
         </v-col>
         <v-col cols="12">
           <p>
-            Before submitting your prediction, registration is required. You
-            need to register your information to both (1) CodaLab and (2) Google
-            Form. Please follow the procedures below.
+            Before submitting your prediction, registration is required. 
+            You need to register your information to both (1) CodaLab and 
+            (2) Google Form. Please follow the procedures below.
+
           </p>
           <ul>
             <li>
-              Solo challengers are also welcom! But don't forget to register you
-              as a solo team!
+              Solo challengers are also welcome! 
+              But don't forget to register as a solo team!
             </li>
             <li>
-              No limitation to team size. (But be careful about violation of NO
-              PRIVATE SHARING policy when you make multiple teams.)
+              No limitation to team size. (But be careful about violation of 
+              the NO PRIVATE SHARING policy when you make multiple teams.)
+
             </li>
           </ul>
         </v-col>

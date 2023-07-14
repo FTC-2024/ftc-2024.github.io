@@ -6,10 +6,12 @@
     <ChallengeRuleSection />
     <ChallengeResultSection />
     <ChallengeRegistrationSection />
+<!--
     <ChallengeTimelineSection />
     <SnsGoogleGroup />
     <ChallengeTutorialSection />
     <ChallengeLinkSection />
+-->
     <ChallengeTeamSection />
     <OrganismsTopScrollBtn />
   </v-container>

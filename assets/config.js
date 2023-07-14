@@ -22,20 +22,20 @@ export default {
   members: {
     core: [
       {
-        name: 'Takuya Maekawa',
-        role: 'Osaka Univ.',
+        name: 'Keisuke Fujii',
+        role: 'Nagoya Univ.',
         imgSrc: require('@/assets/img/member/maekawa-takuya.jpg'),
         link: 'http://www-mmde.ist.osaka-u.ac.jp/~maekawa/index-e.html',
       },
       {
-        name: 'Naoya Yoshimura',
-        role: 'Osaka Univ.',
+        name: 'Makoto Itoh',
+        role: 'Nagoya Univ.',
         imgSrc: require('@/assets/img/member/yoshimura-naoya.jpg'),
         link: 'https://www.linkedin.com/in/naoya-yoshimura-3b783a177/',
       },
       {
-        name: 'Jaime Morales',
-        role: 'Osaka Univ.',
+        name: 'Qingrui Hu',
+        role: 'Nagoya Univ.',
         imgSrc: require('@/assets/img/member/jaime.jpg'),
       },
     ],
@@ -83,13 +83,13 @@ export default {
     ],
     adviser: [
       {
-        name: 'Sozo Inoue',
-        role: 'Kyushu Institute of Technology',
+        name: 'Hiroaki Kawashima',
+        role: 'University of Hyogo',
         imgSrc: null,
       },
       {
-        name: 'Kazuya Murao',
-        role: 'Ritsumeikan University',
+        name: 'Atom Scott',
+        role: 'Nagoya University',
         imgSrc: null,
       },
     ],

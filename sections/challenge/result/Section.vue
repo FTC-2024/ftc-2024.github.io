@@ -9,22 +9,11 @@
       <v-row>
         <v-col cols="12">
           <p>
-            Thank you to everyone who participated, we had
-            <span class="font-weight-bold">33 teams</span> and
-            <span class="font-weight-bold">106 registered users</span>on colab.
-            We received a total of
-            <span class="font-weight-bold">817 submissions</span> during the
-            period. (As of January 19, 2023)
-          </p>
-          <p>
-            The top five teams in the competition are listed below.
-            Congratulations! Please see
-            <a :href="googleSheetUrl" target="_blank"
-              >this table (Google Sheet)</a
-            >
-            here for detailed scores.
+            (TBD)
+
           </p>
         </v-col>
+<!--
         <v-col v-for="(item, index) in top5Teams" :key="index" cols="12">
           <v-card class="op-brown lighten-2" width="100%">
             <v-card-subtitle
@@ -99,6 +88,7 @@
           </v-card>
         </v-col>
       </v-row>
+    -->
     </v-container>
   </section>
 </template>
