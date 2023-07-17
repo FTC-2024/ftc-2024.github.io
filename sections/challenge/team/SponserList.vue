@@ -45,7 +45,7 @@ export default {
     items: [
       {
         alt: 'Sponsor.1 (TBA)',
-        imgSrc: require('@/assets/img/sponsors/Toshiba_Logo_Red_RGB.svg'),
+        imgSrc: require('@/assets/img/sponsors/Toshiba_Logo_Red_RGB.png'),
         link: 'https://www.global.toshiba/ww/top.html',
         bgColor: 'white',
       },

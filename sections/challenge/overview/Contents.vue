@@ -37,7 +37,7 @@ export default {
           link: 'challenge-prize-section',
         },
         {
-          name: 'Rules for OpenPack Challenge 2022',
+          name: 'Rules for Fish Tracking Challenge 2024',
           link: 'challenge-rule-section',
         },
         {

@@ -5,12 +5,13 @@
         <v-row>
           <v-col cols="12" class="white--text">
             <h2 class="text-h3 text-center font-weight-bold my-3">
-              OpenPack Challenge 2022 (Closed)
+              FishTrackingChallenge2024
             </h2>
             <p>
-              We are hosting an activity recognition competition using the
-              OpenPack dataset at PerCom 2023 Workshop! The task is very simple:
-              recognize 10 work operations in the OpenPack dataset.
+              We are hosting a multi-object tracking competition, Fish Tracking
+              Challenge 2024, using the SweetFish dataset at the International
+              Symposium of Hierarchical Bio-Navigation 2024! The task is very
+              simple: tracking *** fishes’ locations from the SweetFish dataset.
             </p>
             <p>
               High recognition accuracy is required to introduce action
@@ -32,16 +33,12 @@
             <v-card class="op-brown lighten-1" width="100%" elevation="0">
               <v-card-text>
                 <div>Start</div>
-                <p
-                  class="text-h5 text--primary font-weight-bold text-decoration-line-through"
-                >
-                  2022-10-15 (AOE)
+                <p class="text-h5 text--primary font-weight-bold">
+                  2023-10-15 (AOE)
                 </p>
                 <div>End</div>
-                <p
-                  class="text-h5 text--primary font-weight-bold text-decoration-line-through"
-                >
-                  2023-01-15 (AOE)
+                <p class="text-h5 text--primary font-weight-bold">
+                  2024-01-15 (AOE)
                 </p>
               </v-card-text>
             </v-card>
@@ -51,7 +48,7 @@
               <v-card-text>
                 <div>Task</div>
                 <p class="text-h5 text--primary font-weight-bold">
-                  Recognize 10 Work Operations
+                  tracking *** fishes’ locations (multi-object tracking)
                 </p>
                 (Temporal Semantic Segmentation)
               </v-card-text>
@@ -62,10 +59,7 @@
               <v-card-text>
                 <div>Prize</div>
                 <div class="text-h5 text--primary font-weight-bold">
-                  <ul>
-                    <li>Cash Prize</li>
-                    <li>Travel Fee Support to attend Percom2023</li>
-                  </ul>
+                  <p>Travel Fee Support (TBD)</p>
                 </div>
               </v-card-text>
             </v-card>

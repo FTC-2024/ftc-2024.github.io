@@ -36,20 +36,20 @@ export default {
   data: () => ({
     items: [
       {
-        date: '2022.12.31',
-        title:
-          'Travel support has been extended to top-5 teams! (OpenPack Challenge 2022)',
+        date: '2023.7.01',
+        title: 'Prototype version of web page released',
         subtitle: '',
         color: 'secondary',
-        link: 'challenge2022',
+        link: '/',
       },
-      {
+      /*      {
         date: '2022.10.17',
         title: 'Dataset (v0.3.1) is released!',
         subtitle: '',
         color: 'secondary',
         link: 'release/v0-3-1',
-      },
+      }, 
+*/
       // {
       //   date: '2022.10.15',
       //   title: 'OpenPack Challenge has launched!',

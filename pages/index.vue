@@ -1,32 +1,88 @@
 <template>
   <v-container fluid class="pa-0">
-    <LpTopSection />
-    <LpDatasetOverviewSection />
-    <LpChallengeSection />
-    <SnsGoogleGroup margin="mt-0" />
-    <LpTermsSection />
-    <LpPaperSection />
+    <ChallengeOverviewSection />
+    <ChallengeTaskSection />
+    <ChallengePrizeSection />
+    <ChallengeRuleSection />
+    <ChallengeResultSection />
+    <ChallengeRegistrationSection />
+    <!--
+    <ChallengeTimelineSection />
+    <SnsGoogleGroup />
+    <ChallengeTutorialSection />
     <ChallengeLinkSection />
-    <section class="gnt-sec-3">
-      <v-container>
-        <v-row>
-          <v-col cols="12">
-            <h2>Getting Started</h2>
-          </v-col>
-          <ChallengeTutorialNotebook />
-        </v-row>
-      </v-container>
-    </section>
-    <LpTeamSection />
+-->
+    <ChallengeTeamSection />
+    <OrganismsTopScrollBtn />
   </v-container>
 </template>
 
 <script scoped>
+const description =
+  "OpenPack Challenge 2022 is an activity recognition competition using the OpenPack dataset. You'll develop a model to recognize the 10 work operations in the packaging work. (OPEN: 2022-10-15, END: 2023-01-15)"
+const metaImg = 'https://open-pack.github.io/img/challenge2022.jpg'
+
 export default {
-  name: 'IndexPage',
+  name: 'ChallengePage',
   head: {
-    titleTemplate: null,
-    title: 'OpenPack Dataset',
+    title: 'FishTrackingChallenge2024',
+    meta: [
+      {
+        hid: 'description',
+        name: 'description',
+        content: description,
+      },
+      {
+        hid: 'og:title',
+        property: 'og:title',
+        content: 'Fish Tracking Challenge 2024',
+      },
+      {
+        hid: 'og:description',
+        property: 'og:description',
+        content: description,
+      },
+      {
+        hid: 'og:url',
+        property: 'og:url',
+        content: 'https://FTC-2024.github.io/challenge2022/',
+      },
+      {
+        hid: 'og:image',
+        property: 'og:image',
+        content: metaImg,
+      },
+      {
+        hid: 'twitter:card',
+        property: 'twitter:card',
+        content: 'summary_large_image',
+      },
+      {
+        hid: 'twitter:site',
+        property: 'twitter:site',
+        content: '@OpenPackDataset',
+      },
+      {
+        hid: 'twitter:domain',
+        property: 'twitter:domain',
+        content: 'open-pack.github.io',
+      },
+      {
+        hid: 'twitter:title',
+        property: 'twitter:title',
+        content: 'OpenPack Challenge 2022',
+      },
+      {
+        hid: 'twitter:description',
+        property: 'twitter:description',
+        content: description,
+      },
+      {
+        hid: 'twitter:image',
+        property: 'twitter:image',
+        content: metaImg,
+      },
+    ],
   },
 }
 </script>

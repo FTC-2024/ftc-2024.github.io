@@ -7,28 +7,23 @@
             id="challenge-registration-section"
             class="text-h5 font-weight-bold my-3"
           >
-            <span class="text-decoration-line-through"
-              >Registration and Submission</span
-            >
-            (Closed)
+            Registration and Submission
           </h2>
         </v-col>
         <v-col cols="12">
           <p>
-            Before submitting your prediction, registration is required. 
-            You need to register your information to both (1) CodaLab and 
-            (2) Google Form. Please follow the procedures below.
-
+            Before submitting your prediction, registration is required. You
+            need to register your information to both (1) CodaLab and (2) Google
+            Form. Please follow the procedures below.
           </p>
           <ul>
             <li>
-              Solo challengers are also welcome! 
-              But don't forget to register as a solo team!
+              Solo challengers are also welcome! But don't forget to register as
+              a solo team!
             </li>
             <li>
-              No limitation to team size. (But be careful about violation of 
-              the NO PRIVATE SHARING policy when you make multiple teams.)
-
+              No limitation to team size. (But be careful about violation of the
+              NO PRIVATE SHARING policy when you make multiple teams.)
             </li>
           </ul>
         </v-col>
@@ -36,17 +31,17 @@
           <h3 class="text-h6 font-weight-bold my-3">Steps for Registration</h3>
           <ol>
             <li>
-              <span class="font-italic op-brown--text">[Every Members]</span>
+              <span class="op-brown--text">[Every Members]</span>
               Make your codalab accounts. All members should have thier own
               accounts.
             </li>
             <li>
-              <span class="font-italic op-brown--text">[Every Members]</span>
+              <span class="op-brown--text">[Every Members]</span>
               <strong>Register</strong> to this challenge from
               <strong>Participate</strong> tab in the codalab page.
             </li>
             <li>
-              <span class="font-italic op-brown--text">[Team Leader]</span>
+              <span class="op-brown--text">[Team Leader]</span>
               Submit the Google Form for team registration.
             </li>
             <li>
@@ -67,7 +62,6 @@
             target="_blank"
             class="mx-2"
             color="op-brown darken-1 white--text text-button"
-            disabled
             @click="openCodalabPage"
           >
             <span class="text-decoration-none text-capitalize">
@@ -79,7 +73,6 @@
             :href="urlGoogleForm"
             target="_blank"
             color="op-brown darken-1 white--text text-button"
-            disabled
             @click="openGoogleFormPage"
           >
             <span class="text-decoration-none text-capitalize">
@@ -95,7 +88,6 @@
             class="my-2"
             block
             color="op-brown darken-1 white--text text-button"
-            disabled
             @click="openCodalabPage"
           >
             <span class="text-decoration-none text-capitalize">

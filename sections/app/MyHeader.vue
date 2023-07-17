@@ -32,7 +32,7 @@
       <v-list-item class="d-flex py-3 px-0">
         <v-list-item>
           <v-list-item-title :class="brandNameFontWeight" class="text-h6 ml-4">
-            OpenPack Dataset
+            FishTrackingDataset
           </v-list-item-title>
         </v-list-item>
       </v-list-item>
@@ -80,8 +80,8 @@ export default {
       },
       {
         icon: 'mdi-seal',
-        title: 'Challenge',
-        to: '/challenge2022',
+        title: 'Dataset',
+        to: '/dataset',
       },
       {
         icon: 'mdi-folder',
