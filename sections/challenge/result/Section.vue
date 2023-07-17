@@ -8,12 +8,9 @@
       </v-row>
       <v-row>
         <v-col cols="12">
-          <p>
-            (TBD)
-
-          </p>
+          <p>(TBD)</p>
         </v-col>
-<!--
+        <!--
         <v-col v-for="(item, index) in top5Teams" :key="index" cols="12">
           <v-card class="op-brown lighten-2" width="100%">
             <v-card-subtitle
@@ -87,8 +84,8 @@
             </v-card-subtitle>
           </v-card>
         </v-col>
+            -->
       </v-row>
-    -->
     </v-container>
   </section>
 </template>
