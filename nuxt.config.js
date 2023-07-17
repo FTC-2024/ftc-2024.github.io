@@ -1,12 +1,16 @@
 import colors from 'vuetify/lib/util/colors'
 
 // only add `router.base = '/<repository-name>/'` if `DEPLOY_ENV` is `GH_PAGES`
-const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
-  router: {
-    base: `/`
-  }
-} : {}
-const ga4TrackingID = process.env.DEPLOY_ENV === 'FIREBASE' ? 'G-XXXXXXXXXX' : 'G-YZB3JBMQES';
+const routerBase =
+  process.env.DEPLOY_ENV === 'GH_PAGES'
+    ? {
+        router: {
+          base: `/`,
+        },
+      }
+    : {}
+const ga4TrackingID =
+  process.env.DEPLOY_ENV === 'FIREBASE' ? 'G-XXXXXXXXXX' : 'G-YZB3JBMQES'
 
 export default {
   ...routerBase,
@@ -17,23 +21,49 @@ export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     titleTemplate: '%s - OpenPack',
-    title: 'OpenPack Dataset',
+    title: 'FishTrackingChallenge',
     htmlAttrs: {
       lang: 'en',
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: "OpenPack is an open access logistics-dataset for human activity recognition, which contains human movement and package information from ten subjects." },
+      {
+        hid: 'description',
+        name: 'description',
+        content:
+          'OpenPack is an open access logistics-dataset for human activity recognition, which contains human movement and package information from ten subjects.',
+      },
       { name: 'format-detection', content: 'telephone=no' },
-      { hid: 'keywords', name: 'keywords', content: 'OpenPack,dataset,activity recognition,wearable' },
+      {
+        hid: 'keywords',
+        name: 'keywords',
+        content: 'FishTrackingChallenge,dataset,activity recognition,wearable',
+      },
 
-      { hid: 'og:site_name', property: 'og:site_name', content: 'OpenPack Dataset' },
+      {
+        hid: 'og:site_name',
+        property: 'og:site_name',
+        content: 'FishTrackingChallenge',
+      },
       { hid: 'og:type', property: 'og:type', content: 'website' },
-      { hid: 'og:url', property: 'og:url', content: 'https://open-pack.github.io' },
+      {
+        hid: 'og:url',
+        property: 'og:url',
+        content: 'https://ftc-2024.github.io',
+      },
       { hid: 'og:title', property: 'og:title', content: 'OpenPack Dataset' },
-      { hid: 'og:description', property: 'og:description', content: "The OpenPacking Dataset is a new large-scale multimodal dataset for recognizing human activity in packing work." },
-      { hid: 'og:image', property: 'og:image', content: 'https://open-pack.github.io/img/OpenPack_icon_with_title.png' },
+      {
+        hid: 'og:description',
+        property: 'og:description',
+        content:
+          'The OpenPacking Dataset is a new large-scale multimodal dataset for recognizing human activity in packing work.',
+      },
+      {
+        hid: 'og:image',
+        property: 'og:image',
+        content: 'https://open-pack.github.io/img/OpenPack_icon_with_title.png',
+      },
       {
         hid: 'twitter:site',
         property: 'twitter:site',
@@ -44,14 +74,17 @@ export default {
         property: 'twitter:domain',
         content: 'open-pack.github.io',
       },
-      { name: 'google-site-verification', content: 'yvsm8zg3mV2mitqHF6QQdSKpzgHYdhbFditCxarr4E4' },
+      {
+        name: 'google-site-verification',
+        content: 'yvsm8zg3mV2mitqHF6QQdSKpzgHYdhbFditCxarr4E4',
+      },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: "favicon.ico" }],
+    link: [{ rel: 'icon', type: 'image/x-icon', href: 'favicon.ico' }],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
-    '~/assets/styles/main.scss' // 追加
+    '~/assets/styles/main.scss', // 追加
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
@@ -62,10 +95,7 @@ export default {
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: {
-    dirs: [
-      '~/components',
-      '~/sections/',
-    ]
+    dirs: ['~/components', '~/sections/'],
   },
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
@@ -78,7 +108,6 @@ export default {
     '@nuxtjs/vuetify',
   ],
 
-
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     '@nuxt/content',
@@ -86,18 +115,21 @@ export default {
     '@/modules/custom-generate.js',
     '@nuxtjs/style-resources',
     'nuxt-webfontloader',
-    ['@nuxtjs/google-gtag', {
-      id: ga4TrackingID,
-      debug: false,
-    }]
+    [
+      '@nuxtjs/google-gtag',
+      {
+        id: ga4TrackingID,
+        debug: false,
+      },
+    ],
   ],
 
   generate: {
     async routes() {
       const { $content } = require('@nuxt/content')
       const files = await $content({ deep: true }).only(['path']).fetch()
-      return files.map(file => file.path === '/index' ? '/' : file.path)
-    }
+      return files.map((file) => (file.path === '/index' ? '/' : file.path))
+    },
   },
 
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
@@ -108,28 +140,26 @@ export default {
       dark: false,
       themes: {
         light: {
-          primary: '#716040',
+          primary: '#0a85a3',
           accent: '#f25042',
           secondary: '#eaddcf',
           info: colors.teal.lighten1,
           warning: '#fbbc04',
           error: colors.deepOrange.accent4,
-          success: '#0f9d58'
-        }
+          success: '#0f9d58',
+        },
       },
       options: {
-        customProperties: true
-      }
-    }
+        customProperties: true,
+      },
+    },
   },
 
   sitemap: {
     path: '/sitemap.xml',
-    hostname: 'https://open-pack.github.io',
+    hostname: 'https://ftc-2024.github.io',
     trailingSlash: true,
-    exclude: [
-      '/404',
-    ]
+    exclude: ['/404'],
   },
 
   styleResources: {
@@ -138,8 +168,11 @@ export default {
 
   webfontloader: {
     google: {
-      families: ['Noto+Sans+JP:100,300,400,500,700,900', 'Noto+Sans+Mono:100,300,400,500,700,900']
-    }
+      families: [
+        'Noto+Sans+JP:100,300,400,500,700,900',
+        'Noto+Sans+Mono:100,300,400,500,700,900',
+      ],
+    },
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build

@@ -10,25 +10,24 @@
         <v-row>
           <v-col cols="12">
             <h3>
-              Travel Fee Support
-              <v-icon>(TBD)</v-icon>
+              Travel Fee Support(TBD)
+              <v-icon></v-icon>
             </h3>
-            <p>
-            </p>
+            <p></p>
           </v-col>
 
           <v-col cols="12">
             <h3>Winners Obligations</h3>
             <p>
-            As a condition to being awarded a Prize, 
-            a top-5 winner must fulfill the following obligations. 
-            The detailed instructions will be sent to top-5 winners 
-            after the final submission deadline.
+              As a condition to being awarded a Prize, a top-5 winner must
+              fulfill the following obligations. The detailed instructions will
+              be sent to top-5 winners after the final submission deadline.
             </p>
             <ul>
               <li>Submit your code so that we can check for cheating.</li>
               <li>
-              Submit a short report paper that describes the award methodology.
+                Submit a short report paper that describes the award
+                methodology.
               </li>
             </ul>
           </v-col>

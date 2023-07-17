@@ -12,12 +12,10 @@
             @International Symposium of Hierarchical Bio-Navigation 2024
           </h2>
           <p>
-            We are hosting a multi-object tracking competition, 
-            Fish Tracking Challenge 2024, using the SweetFish dataset 
-            at the International Symposium of Hierarchical Bio-Navigation 2024! 
-            The task is very simple: tracking *** fishes’ 
-            locations from the SweetFish dataset.
-
+            We are hosting a multi-object tracking competition, Fish Tracking
+            Challenge 2024, using the SweetFish dataset at the International
+            Symposium of Hierarchical Bio-Navigation 2024! The task is very
+            simple: tracking *** fishes’ locations from the SweetFish dataset.
           </p>
         </v-col>
       </v-row>
@@ -26,13 +24,9 @@
           <v-card class="op-brown darken-1" width="100%" elevation="0">
             <v-card-text class="white--text">
               <div>Competition Start</div>
-              <p class="text-h5 font-weight-bold text-decoration-line-through">
-                2023-10-15 (AOE)
-              </p>
+              <p class="text-h5 font-weight-bold">2023-10-15 (AOE)</p>
               <div>Competition End</div>
-              <p class="text-h5 font-weight-bold text-decoration-line-through">
-                2024-01-15 (AOE)
-              </p>
+              <p class="text-h5 font-weight-bold">2024-01-15 (AOE)</p>
             </v-card-text>
           </v-card>
         </v-col>
@@ -41,7 +35,7 @@
             <v-card-text class="white--text">
               <div>Task</div>
               <p class="text-h5 font-weight-bold">
-                 tracking *** fishes’ locations (multi-object tracking)
+                tracking *** fishes’ locations (multi-object tracking)
               </p>
               (Temporal Semantic Segmentation)
             </v-card-text>
@@ -51,9 +45,7 @@
           <v-card class="op-brown darken-1" width="100%" elevation="0">
             <v-card-text class="white--text">
               <div>Prize</div>
-              <p class="text-h5 font-weight-bold">
-                Travel Fee Support (TBD) 
-              </p>
+              <p class="text-h5 font-weight-bold">Travel Fee Support (TBD)</p>
             </v-card-text>
           </v-card>
         </v-col>
