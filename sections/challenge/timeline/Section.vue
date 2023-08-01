@@ -50,21 +50,21 @@ export default {
   data: () => ({
     tlItems: [
       {
-        datetime: '2022-10-01',
+        datetime: '2023-10-01',
         title: 'Registration Open',
         caption: 'Google form and competition page on codalab will be public.',
         titleStyle: 'text-h6 text-decoration-line-through',
         color: 'op-brown darken-1',
       },
       {
-        datetime: '2022-10-15',
+        datetime: '2023-10-15',
         title: 'Launch',
         titleStyle: 'text-h6 text-decoration-line-through',
         caption: 'You can submit your estimates to the competition site.',
         color: 'op-brown  darken-1',
       },
       {
-        datetime: '2023-01-10',
+        datetime: '2024-01-10',
         title: 'Entry and Team Merger Deadline',
         titleStyle: 'text-h6 text-decoration-line-through',
         caption:
@@ -72,30 +72,33 @@ export default {
         color: 'op-brown  darken-1',
       },
       {
-        datetime: '2023-01-15',
+        datetime: '2024-01-15',
         title: 'Final Submission Deadline',
         titleStyle: 'text-h6 text-decoration-line-through',
         caption: 'You must submit your best results until the end of this day.',
         color: 'op-brown  darken-1',
       },
       {
-        datetime: '2023-01-31',
+        datetime: '2024-01-31',
         title: 'Report Submission Deadline',
         titleStyle: 'text-h6 text-decoration-line-through',
         caption:
           'Top 3 winners must submit a report of your solution to get the prize! Deadlines are subject to change.',
         color: 'op-brown darken-1',
       },
-      {
-        datetime: '2023-03-13',
+    ],
+  }),
+}
+</script>
+<style lang="scss" scoped></style>
+
+<!--sample
+        {
+        datetime: '2024-03-13',
         title: 'Workshop Day @Percom2023',
         titleStyle: 'text-h6',
         caption:
           'Award Ceremony will be held. Top 3 winners are requested to participate offline.',
         color: 'op-brown',
       },
-    ],
-  }),
-}
-</script>
-<style lang="scss" scoped></style>
+-->

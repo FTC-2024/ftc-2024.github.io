@@ -47,7 +47,6 @@
               <p class="text-h5 font-weight-bold">
                 tracking 10 fishes’ locations (multi-object tracking)
               </p>
-              (Temporal Semantic Segmentation)
             </v-card-text>
           </v-card>
         </v-col>

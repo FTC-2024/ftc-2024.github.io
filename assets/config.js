@@ -75,7 +75,7 @@ export default {
     provider: [
       {
         name: 'Takayuki Niizato',
-        role: 'Tsukuba University',
+        role: 'University of Tsukuba',
         imgSrc: null,
       },
     ],
