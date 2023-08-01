@@ -1,7 +1,7 @@
 export default {
   brand: {
     name: 'FishTrackingChallenge2024',
-    nameShort: 'FishTracking',
+    nameShort: 'FTC2024',
     footer: {
       links: [
         { icon: 'mdi-github', link: 'https://github.com/FTC-2024' },
