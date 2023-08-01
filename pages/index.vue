@@ -6,9 +6,8 @@
     <ChallengeRuleSection />
     <ChallengeResultSection />
     <ChallengeRegistrationSection />
-    <!--
     <ChallengeTimelineSection />
-    <SnsGoogleGroup />
+    <!--    <SnsGoogleGroup />
     <ChallengeTutorialSection />
     <ChallengeLinkSection />
 -->
