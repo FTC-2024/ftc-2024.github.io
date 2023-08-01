@@ -75,18 +75,18 @@ export default {
     pages: [
       {
         icon: 'mdi-home',
-        title: 'Home',
+        title: '',
         to: '/',
       },
       {
         icon: 'mdi-seal',
-        title: 'Dataset',
-        to: '/dataset',
+        title: '',
+        to: '/',
       },
       {
         icon: 'mdi-folder',
-        title: 'Gallery',
-        to: '/gallery',
+        title: '',
+        to: '/',
       },
     ],
   }),

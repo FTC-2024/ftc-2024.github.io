@@ -1,4 +1,4 @@
-<template>
+<!--<template>
   <v-container>
     <section class="gnt-sec-1 nuxt-content">
       <h2 class="text-h2 primary--text font-weight-bold">Release Notes</h2>
@@ -41,3 +41,4 @@ export default {
 </script>
 
 <style lang="scss" scoped></style>
+-->

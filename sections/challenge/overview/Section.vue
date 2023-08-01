@@ -15,7 +15,17 @@
             We are hosting a multi-object tracking competition, Fish Tracking
             Challenge 2024, using the SweetFish dataset at the International
             Symposium of Hierarchical Bio-Navigation 2024! The task is very
-            simple: tracking *** fishes’ locations from the SweetFish dataset.
+            simple: tracking 10 fishes’ locations from the SweetFish dataset.
+          </p>
+          <p>
+            The SweetFish dataset captures the complex collective behaviors of
+            aquatic animals, with a focus on sweetfish navigation. While
+            understanding these patterns is crucial for various scientific
+            disciplines, accurately tracking sweetfish, especially in groups,
+            presents challenges. By developing an advanced tracking model,
+            researchers can uncover the intricacies of aquatic movement and
+            significantly advance this field. Dive in and make waves in the
+            world of aquatic animal research!
           </p>
         </v-col>
       </v-row>
@@ -35,7 +45,7 @@
             <v-card-text class="white--text">
               <div>Task</div>
               <p class="text-h5 font-weight-bold">
-                tracking *** fishes’ locations (multi-object tracking)
+                tracking 10 fishes’ locations (multi-object tracking)
               </p>
               (Temporal Semantic Segmentation)
             </v-card-text>

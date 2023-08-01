@@ -10,16 +10,20 @@
         <v-col cols="12">
           <h3>Background</h3>
           <p>
-             (TBD) 
+            Collective animal behaviors are teeming with life and intricate
+            behavioral patterns. The sweetfish, included in this dataset, offers
+            a unique window into understanding animal navigation in water. For
+            ethologists, ecologists, and mathematical and theoretical
+            biologists, decoding these patterns is pivotal, but automatic
+            tracking the navigation of sweetfish, especially when in schools,
+            introduces a plethora of challenges. (TBD)
           </p>
         </v-col>
       </v-row>
       <v-row>
         <v-col cols="12">
           <h3>Challenge</h3>
-          <p>
-             (TBD) 
-          </p>
+          <p>(TBD)</p>
         </v-col>
       </v-row>
     </v-container>

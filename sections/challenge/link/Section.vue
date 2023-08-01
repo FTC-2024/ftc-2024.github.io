@@ -7,6 +7,7 @@
             <h2 id="challenge-link-section">Tools</h2>
           </v-col>
         </v-row>
+        <!--
         <v-row>
           <v-col v-for="(item, index) in links" :key="index" cols="12" md="6">
             <v-card class="op-brown lighten-2" width="100%">
@@ -35,6 +36,7 @@
             </v-card>
           </v-col>
         </v-row>
+-->
       </v-container>
     </section>
   </section>
