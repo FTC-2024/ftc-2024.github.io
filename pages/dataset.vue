@@ -1,4 +1,4 @@
-<template>
+<!--<template>
   <v-container fluid class="pa-0">
     <LpTopSection />
     <LpDatasetOverviewSection />
@@ -30,3 +30,4 @@ export default {
   },
 }
 </script>
+-->

@@ -44,12 +44,6 @@ export default {
   data: () => ({
     items: [
       {
-        alt: 'Sponsor.1 (TBA)',
-        imgSrc: require('@/assets/img/sponsors/Toshiba_Logo_Red_RGB.png'),
-        link: 'https://www.global.toshiba/ww/top.html',
-        bgColor: 'white',
-      },
-      {
         alt: 'Cynav: What is Hierarchical Bio-Navigation?',
         imgSrc: require('@/assets/img/sponsors/Cynav_213ppi.png'),
         link: 'https://bio-navigation.jp/',

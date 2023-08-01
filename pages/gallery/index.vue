@@ -1,4 +1,4 @@
-<template>
+<!--<template>
   <v-container fluid class="pa-0">
     <GalleryTopSection />
     <GalleryActivitySection />
@@ -42,3 +42,4 @@ export default {
   },
 }
 </script>
+-->

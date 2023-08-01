@@ -12,7 +12,7 @@
           </p>
 
           <a
-            href="https://github.com/open-pack/openpack-toolkit/blob/main/docs/OPENPACK_CHALLENGE"
+            href="https://github.com/FTC-2024"
             target="_blank"
             class="text-decoration-none"
           >
@@ -40,12 +40,13 @@
             </v-btn>
           </a>
         </v-col>
-        <v-col cols="12">
+        <!--        <v-col cols="12">
           <v-alert dense outlined type="info">
             For more information on the dataset used in this competition, see
             <nuxt-link to="/" class="font-weight-bold">this page</nuxt-link>.
           </v-alert>
         </v-col>
+-->
       </v-row>
     </v-container>
   </section>

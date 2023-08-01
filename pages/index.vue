@@ -12,6 +12,8 @@
     <ChallengeTutorialSection />
     <ChallengeLinkSection />
 -->
+    <LpTermsSection />
+    <ChallengeLinkSection />
     <ChallengeTeamSection />
     <OrganismsTopScrollBtn />
   </v-container>
@@ -19,8 +21,8 @@
 
 <script scoped>
 const description =
-  "OpenPack Challenge 2022 is an activity recognition competition using the OpenPack dataset. You'll develop a model to recognize the 10 work operations in the packaging work. (OPEN: 2022-10-15, END: 2023-01-15)"
-const metaImg = 'https://open-pack.github.io/img/challenge2022.jpg'
+  'Fish Tracking Challenge 2024, using the SweetFish dataset at the International Symposium of Hierarchical Bio-Navigation 2024(OPEN: 2023-10-15, END: 2024-01-15)'
+const metaImg = 'https://FTC-2024.io/img/FishTrackingChallenge.jpg'
 
 export default {
   name: 'ChallengePage',

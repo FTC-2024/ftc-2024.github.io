@@ -150,8 +150,7 @@ import config from '@/assets/config'
 export default {
   name: 'ChallengeRegistrationSection',
   data: () => ({
-    urlGoogleForm:
-      'https://docs.google.com/forms/d/e/1FAIpQLSfK9BueMB3KWbxAcyup13xZtX8YyVyqVtBhG7YMnOpq1dyFqQ/viewform?usp=sf_link',
+    urlGoogleForm: '',
     urlCodalab: config.challenge.codalab,
   }),
   methods: {

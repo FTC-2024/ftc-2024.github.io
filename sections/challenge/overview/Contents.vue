@@ -37,20 +37,16 @@ export default {
           link: 'challenge-prize-section',
         },
         {
-          name: 'Rules for Fish Tracking Challenge 2024',
+          name: 'Rules',
           link: 'challenge-rule-section',
+        },
+        {
+          name: 'Results',
+          link: 'challenge-result-section',
         },
         {
           name: 'Registration and Submission',
           link: 'challenge-registration-section',
-        },
-        {
-          name: 'Timeline',
-          link: 'challenge-timeline-section',
-        },
-        {
-          name: 'Getting Started',
-          link: 'challenge-tutorial-section',
         },
         {
           name: 'Tools',

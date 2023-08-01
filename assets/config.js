@@ -4,19 +4,19 @@ export default {
     nameShort: 'FishTracking',
     footer: {
       links: [
-        { icon: 'mdi-github', link: 'https://github.com/open-pack' },
-        { icon: 'mdi-twitter', link: 'https://twitter.com/OpenPackDataset' },
+        { icon: 'mdi-github', link: 'https://github.com/FTC-2024' },
+        { icon: 'mdi-twitter', link: '' },
         {
           icon: 'mdi-account-multiple',
-          link: 'https://groups.google.com/g/openpack',
+          link: '',
         },
         {
           icon: 'mdi-youtube',
-          link: 'https://www.youtube.com/channel/UC-AzuKxoJcyOtFi7B3CS4rA',
+          link: '',
         },
         {
           icon: 'mdi-school',
-          link: 'https://mmde-lab.github.io/webpage/index-e/',
+          link: '',
         },
       ],
     },
@@ -26,7 +26,7 @@ export default {
     },
   },
   challenge: {
-    codalab: 'https://codalab.lisn.upsaclay.fr/competitions/7830',
+    codalab: '',
   },
   members: {
     core: [
@@ -50,43 +50,8 @@ export default {
     ],
     support: [
       {
-        name: 'Kana Yasuda',
-        role: 'Annotator',
-        imgSrc: null,
-      },
-      {
-        name: 'Chikako Kawabe',
-        role: 'Annotator',
-        imgSrc: null,
-      },
-      {
-        name: 'Makiko Otsuka',
-        role: 'Annotator',
-        imgSrc: null,
-      },
-      {
-        name: 'Yashodmi Kaluarachchi',
-        role: 'Annotator',
-        imgSrc: null,
-      },
-      {
-        name: 'Keisuke Tsukamoto',
-        role: 'Web Developper',
-        imgSrc: null,
-      },
-      {
-        name: 'Pan Guangyang',
-        role: 'Web Developper',
-        imgSrc: null,
-      },
-      {
-        name: 'Kohei Hirata',
-        role: 'Web Developper',
-        imgSrc: null,
-      },
-      {
-        name: 'Yagi ',
-        role: 'Web Developper',
+        name: '',
+        role: '',
         imgSrc: null,
       },
     ],
@@ -97,8 +62,20 @@ export default {
         imgSrc: null,
       },
       {
+        name: 'Naoya Yoshimura',
+        role: '',
+        imgSrc: null,
+      },
+      {
         name: 'Atom Scott',
         role: 'Nagoya University',
+        imgSrc: null,
+      },
+    ],
+    provider: [
+      {
+        name: 'Takayuki Niizato',
+        role: 'Tsukuba University',
         imgSrc: null,
       },
     ],

@@ -5,18 +5,9 @@
         <v-row>
           <v-col cols="12" class="pb-1">
             <h2>Terms of Use (Licence)</h2>
-            <p>
-              The OpenPack dataset consists of RGB data
-              <i>(OpenPack Dataset (+RGB))</i> and other data
-              <i>(OpenPack Dataset)</i>, and the non-RGB data will continue to
-              be provided under "CC BY-NC-SA 4.0". On the other hand, the
-              dataset including RGB data will be provided under a different
-              license for privacy and ethical considerations, as described
-              below. Please check the license of the dataset you use before
-              using it.
-            </p>
+            <p>(TBD)</p>
           </v-col>
-          <v-col cols="12" class="pb-1">
+          <!--        <v-col cols="12" class="pb-1">
             <h3>OpenPack Dataset</h3>
             <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title"
               >OpenPack Dataset</span
@@ -97,11 +88,13 @@
               </li>
             </ul>
           </v-col>
+-->
         </v-row>
         <v-row>
           <v-col cols="12">
             <h2>Cite</h2>
-            <p>
+            <p>(TBD)</p>
+            <!--            <p>
               If you use the OpenPack dataset or code please cite
               <small>(Updated on Dec 24 2022)</small>:
             </p>
@@ -123,6 +116,7 @@
                 </p>
               </v-col>
             </v-sheet>
+-->
           </v-col>
         </v-row>
       </v-container>
