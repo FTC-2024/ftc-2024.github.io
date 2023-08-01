@@ -22,7 +22,7 @@
 <script scoped>
 const description =
   'Fish Tracking Challenge 2024, using the SweetFish dataset at the International Symposium of Hierarchical Bio-Navigation 2024(OPEN: 2023-10-15, END: 2024-01-15)'
-const metaImg = 'https://FTC-2024.io/img/FishTrackingChallenge.jpg'
+const metaImg = 'https://ftc-2024.github.io/img/FishTrackingChallenge.jpg'
 
 export default {
   name: 'ChallengePage',
