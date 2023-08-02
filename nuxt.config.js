@@ -20,7 +20,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    titleTemplate: '%s - OpenPack',
+    titleTemplate: '%s - FTC2024',
     title: 'FishTrackingChallenge',
     htmlAttrs: {
       lang: 'en',
@@ -32,7 +32,7 @@ export default {
         hid: 'description',
         name: 'description',
         content:
-          'OpenPack is an open access logistics-dataset for human activity recognition, which contains human movement and package information from ten subjects.',
+          'a multi-object tracking competition, Fish Tracking Challenge 2024, using the SweetFish dataset at the International Symposium of Hierarchical Bio-Navigation 2024',
       },
       { name: 'format-detection', content: 'telephone=no' },
       {
@@ -57,22 +57,23 @@ export default {
         hid: 'og:description',
         property: 'og:description',
         content:
-          'The OpenPacking Dataset is a new large-scale multimodal dataset for recognizing human activity in packing work.',
+          'a multi-object tracking competition, Fish Tracking Challenge 2024, using the SweetFish dataset at the International Symposium of Hierarchical Bio-Navigation 2024.',
       },
       {
         hid: 'og:image',
         property: 'og:image',
-        content: 'https://open-pack.github.io/img/OpenPack_icon_with_title.png',
+        content:
+          'https://ftc-2024.github.io/img/FishTrackingChallenge_icon_with_title.png',
       },
       {
         hid: 'twitter:site',
         property: 'twitter:site',
-        content: '@OpenPackDataset',
+        content: '@FTC_2024',
       },
       {
         hid: 'twitter:domain',
         property: 'twitter:domain',
-        content: 'open-pack.github.io',
+        content: 'ftc-2024.github.io',
       },
       {
         name: 'google-site-verification',
