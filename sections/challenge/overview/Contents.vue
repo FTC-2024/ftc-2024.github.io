@@ -41,6 +41,10 @@ export default {
           link: 'challenge-rule-section',
         },
         {
+          name: 'Detail',
+          link: 'challenge-detail-section',
+        },
+        {
           name: 'Results',
           link: 'challenge-result-section',
         },

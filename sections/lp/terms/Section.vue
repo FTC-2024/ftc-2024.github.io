@@ -4,8 +4,11 @@
       <v-container>
         <v-row>
           <v-col cols="12" class="pb-1">
-            <h2>Terms of Use (Licence)</h2>
-            <p>(TBD)</p>
+            <h2>Terms of Use (License)</h2>
+            <p>
+              The SweetFish dataset consisting of video and location data will
+              continue to be provided under "CC BY-NC-SA 4.0".
+            </p>
           </v-col>
           <!--        <v-col cols="12" class="pb-1">
             <h3>OpenPack Dataset</h3>
