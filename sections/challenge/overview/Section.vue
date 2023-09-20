@@ -45,7 +45,7 @@
             <v-card-text class="white--text">
               <div>Task</div>
               <p class="text-h5 font-weight-bold">
-                tracking 10 fishes’ locations (multi-object tracking)
+                Tracking 10 fishes’ locations (multi-object tracking)
               </p>
             </v-card-text>
           </v-card>
