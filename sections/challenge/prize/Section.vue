@@ -10,7 +10,12 @@
         <v-row>
           <v-col cols="12">
             <h3>
-              Travel Fee Support(TBD)
+              Travel Fee Support(TBD)<br />
+              At least one person from the top-3 team was encouraged to attend
+              the award ceremony on-site or online. We will support the travel
+              fee (within Japan) for the attendance of up to 1 member from each
+              winning team, who lives in Japan.
+
               <v-icon></v-icon>
             </h3>
             <p></p>
