@@ -50,33 +50,34 @@ export default {
     ],
     support: [
       {
-        name: '',
-        role: '',
+        name: 'Alex Hoi-Hang Chan',
+        role: 'University of Konstanz',
         imgSrc: null,
       },
     ],
+
     adviser: [
       {
         name: 'Hiroaki Kawashima',
         role: 'University of Hyogo',
-        imgSrc: null,
+        imgSrc: require('@/assets/img/member/kawashima.jpg'),
       },
       {
         name: 'Naoya Yoshimura',
-        role: '',
-        imgSrc: null,
+        role: 'Osaka University',
+        imgSrc: require('@/assets/img/member/yoshimura.jpg'),
       },
       {
         name: 'Atom Scott',
         role: 'Nagoya University',
-        imgSrc: null,
+        imgSrc: require('@/assets/img/member/scott.png'),
       },
     ],
     provider: [
       {
         name: 'Takayuki Niizato',
         role: 'University of Tsukuba',
-        imgSrc: null,
+        imgSrc: require('@/assets/img/member/niizato.jpg'),
       },
     ],
   },

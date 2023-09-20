@@ -3,6 +3,7 @@
     <ChallengeOverviewSection />
     <ChallengeTaskSection />
     <ChallengePrizeSection />
+    <ChallengeDetailSection />
     <ChallengeRuleSection />
     <ChallengeResultSection />
     <ChallengeRegistrationSection />
