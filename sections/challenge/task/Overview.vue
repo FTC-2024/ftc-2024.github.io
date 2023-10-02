@@ -36,6 +36,20 @@
           </p>
         </v-col>
       </v-row>
+      <v-row>
+        <v-col col="12">
+          <h3>Video</h3>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/LH59G8MkqP0?si=Oj-JnI4VgXcemiUO"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </v-col>
+      </v-row>
     </v-container>
   </section>
 </template>

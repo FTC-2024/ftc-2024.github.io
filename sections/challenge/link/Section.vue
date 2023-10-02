@@ -5,6 +5,7 @@
         <v-row>
           <v-col cols="12">
             <h2 id="challenge-link-section">Tools</h2>
+            <p>(TBD)</p>
           </v-col>
         </v-row>
         <!--
