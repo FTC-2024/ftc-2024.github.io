@@ -54,7 +54,7 @@
           <v-card class="op-brown darken-1" width="100%" elevation="0">
             <v-card-text class="white--text">
               <div>Prize</div>
-              <p class="text-h5 font-weight-bold">Travel Fee Support (TBD)</p>
+              <p class="text-h5 font-weight-bold">Travel Fee Support</p>
             </v-card-text>
           </v-card>
         </v-col>

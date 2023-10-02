@@ -16,8 +16,8 @@
               <a
                 href="https://drive.google.com/drive/folders/1Xn3IY46t7DkG2bntbO6sL3oElRPeQA1d?usp=drive_link"
                 target="_blank"
-                >[Google drive Link ] </a
-              >.). You can use all dataset listed below:
+                >[Google drive Link] </a
+              >). You can use all dataset listed below:
             </p>
             <ul>
               <li>Video (.mp4 in training, development, and test sets)</li>
@@ -37,9 +37,13 @@
               Order Tracking Accuracy) score, which is a holistic and popular
               score in multi-object tracking (MOT). HOTA is designed to overcome
               many of the limitations of previous metrics. For example, you can
-              see this web page
-              [https://autonomousvision.github.io/hota-metrics/] for
-              understanding.
+              see this
+              <a
+                href="https://autonomousvision.github.io/hota-metrics/"
+                target="_blank"
+                >web page</a
+              >
+              for understanding.
             </p>
             <!--<h3>Function to Calculate Your Score</h3>
             <p>The script to calculate your score is available at [TBD] .</p>-->
@@ -48,10 +52,11 @@
               To submit your results to this competition you must construct a
               submission zip file containing a single file named submission.txt.
               Sample submission files for Development Phase are available as
-              follows: submission.zip (<a
+              follows:(<a
                 href="https://drive.google.com/drive/folders/1vvDDS98bKKMOzuFCO_2gNmQunaYDHneZ?usp=sharing"
                 target="_blank"
-                >https://drive.google.com/drive/folders/1vvDDS98bKKMOzuFCO_2gNmQunaYDHneZ?usp=sharing</a
+              >
+                submission.zip </a
               >)
             </p>
           </v-col>
