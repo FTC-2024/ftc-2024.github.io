@@ -26,7 +26,7 @@ export default {
     },
   },
   challenge: {
-    codalab: '',
+    codalab: 'https://codalab.lisn.upsaclay.fr/competitions/15973',
   },
   members: {
     core: [
