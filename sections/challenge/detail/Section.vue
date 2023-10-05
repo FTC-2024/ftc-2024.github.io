@@ -50,14 +50,16 @@
             <h3>Submission Format</h3>
             <p>
               To submit your results to this competition you must construct a
-              submission zip file containing a single file named submission.txt.
+              submission zip file containing a single file named answer.txt.
               Sample submission files for Development Phase are available as
-              follows:(<a
+              follows:(
+              <a
                 href="https://drive.google.com/drive/folders/1vvDDS98bKKMOzuFCO_2gNmQunaYDHneZ?usp=sharing"
                 target="_blank"
               >
-                submission.zip </a
-              >)
+                submission.zip
+              </a>
+              )
             </p>
           </v-col>
         </v-row>
