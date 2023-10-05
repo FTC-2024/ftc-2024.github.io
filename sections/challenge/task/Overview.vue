@@ -16,7 +16,7 @@
             ethologists, ecologists, and mathematical and theoretical
             biologists, decoding these patterns is pivotal, but automatic
             tracking the navigation of sweetfish, especially when in schools,
-            introduces a plethora of challenges. (TBD)
+            introduces a plethora of challenges.
           </p>
         </v-col>
       </v-row>
