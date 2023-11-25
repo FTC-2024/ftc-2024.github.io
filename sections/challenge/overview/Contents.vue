@@ -37,12 +37,12 @@ export default {
           link: 'challenge-prize-section',
         },
         {
-          name: 'Rules',
-          link: 'challenge-rule-section',
-        },
-        {
           name: 'Detail',
           link: 'challenge-detail-section',
+        },
+        {
+          name: 'Rules',
+          link: 'challenge-rule-section',
         },
         {
           name: 'Results',
