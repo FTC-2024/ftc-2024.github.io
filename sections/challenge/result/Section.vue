@@ -8,9 +8,22 @@
       </v-row>
       <v-row>
         <v-col cols="12">
-          <p>(TBD)</p>
+          <p>
+            Thank you to everyone who participated, we had 16 teams and 31
+            registered users on colab. We received a total of 163 submissions
+            during the period. (As of January 16, 2024)
+          </p>
+
+          <p>
+            The top three teams in the competition are listed below.
+            Congratulations! Please see this table (
+            <a
+              href="https://docs.google.com/spreadsheets/d/1nPFyM8RXhV6PmuFqBXl2UWexfimI3N-x5H0cBwKYvHw/edit?usp=sharing"
+              target="blank"
+              >Google Sheet</a
+            >) here for detailed scores.
+          </p>
         </v-col>
-        <!--
         <v-col v-for="(item, index) in top5Teams" :key="index" cols="12">
           <v-card class="op-brown lighten-2" width="100%">
             <v-card-subtitle
@@ -22,7 +35,7 @@
               <h4 class="text-h5 black--text font-weight-bold">
                 {{ item.team }}
                 <span class="text-h6 op-brown--text"
-                  >(F1={{ item.score }})</span
+                  >(HOTA score={{ item.score }})</span
                 >
               </h4>
               <p class="mb-0">
@@ -55,7 +68,7 @@
                 <tr>
                   <th class="text-left">Rank</th>
                   <th class="text-left">Team</th>
-                  <th class="text-left">F1-measure</th>
+                  <th class="text-left">HOTA score</th>
                 </tr>
               </thead>
               <tbody>
@@ -69,6 +82,7 @@
           </v-simple-table>
         </v-col>
       </v-row>
+      <!--
       <v-row>
         <v-col cols="12">
           <h3>Awards Ceremony @Percom2023 WS BiRD</h3>
@@ -84,8 +98,8 @@
             </v-card-subtitle>
           </v-card>
         </v-col>
-            -->
       </v-row>
+      -->
     </v-container>
   </section>
 </template>
@@ -96,71 +110,46 @@ export default {
     top5Teams: [
       {
         rank: '1st Place',
-        team: 'tomoon',
-        score: 0.9633,
-        member: 'Tomoki Uchiyama. (Tsukuba Univ., JA)',
+        team: 'ytachioka',
+        score: 0.49,
+        member: 'Tachioka yuuki. (Denso IT laboratory)',
         links: [
           {
             title: 'Poster',
-            url: 'data/2023-03-13-openpack-challenge-poster/1st-tomoon.pdf',
+            url: '',
           },
           {
             title: 'Solution (GitHub)',
-            url: 'https://github.com/uchiyama33/OpenPack-Challenge-1st',
+            url: '',
           },
         ],
       },
       {
         rank: '2nd Place',
-        team: 'vbu211',
-        score: 0.9592,
+        team: 'simon787 (UWIPL)',
+        score: 0.47,
         member:
-          'Yuto Namba(a,b), Yuichi Nakatani(a), Kenta Ishihara(a), Sachio Iwasaki(a), Kosuke Moriwaki(a), Xian-Hua Han(b), Tetsuo Inoshita(a). (a=NEC Corporation, JP; b=Yamaguchi Univ., JP)',
+          'Hao Wang et al.(University of Washington Information Processing Lab)',
         links: [
           {
             title: 'Poster',
-            url: 'data/2023-03-13-openpack-challenge-poster/2nd-vbu211.pdf',
+            url: '',
           },
         ],
       },
       {
         rank: '3rd Place',
-        team: 'Ritsumei',
-        score: 0.9241,
-        member:
-          'Shurong Chai(a), Jiaqing Liu(a), Rahul Kumar Jain(a), Yinhao Li(a), Tomoko Tateyama(b), Yen-Wei Chen. (a=Ritsumeikan Univ, JP; b=Fujita Health Univ., JP)',
+        team: 'maburto(LabTrack)',
+        score: 0.44,
+        member: 'Andres Mohali et al.(NAIST)',
         links: [
           {
             title: 'Poster',
-            url: 'data/2023-03-13-openpack-challenge-poster/3rd-ritsumei.pdf',
+            url: '',
           },
           {
             title: 'Solution (GitHub)',
-            url: 'https://github.com/11yxk/openpack_challenge',
-          },
-        ],
-      },
-      {
-        rank: '4th Place',
-        team: 'Malton',
-        score: 0.9171,
-        member: 'Yusuke Matsubayashi. (Osaka Univ., JP)',
-        links: [
-          {
-            title: 'Poster',
-            url: 'data/2023-03-13-openpack-challenge-poster/4th-malton.pdf',
-          },
-        ],
-      },
-      {
-        rank: '5th Place',
-        team: 'Shubham Wagh',
-        score: 0.9112,
-        member: 'Shubham Maroti Wagh. (Veridium in Oxford, UK)',
-        links: [
-          {
-            title: 'Poster',
-            url: 'data/2023-03-13-openpack-challenge-poster/5th-shubham.pdf',
+            url: '',
           },
         ],
       },
@@ -168,70 +157,47 @@ export default {
     results: [
       {
         rank: 1,
-        team: 'tomoon',
-        score: 0.9633,
-        member: 'Tomoki UCHIYAMA (Univ. Tsukuba, JA)',
+        team: 'ytachioka',
+        score: 0.49,
       },
       {
         rank: 2,
-        team: 'vbu211',
-        score: 0.9592,
-        member:
-          'Yuto Namba (a,b), Yuichi Nakatani(a), Kenta Ishihara(a), Sachio Iwasaki(a), Kosuke Moriwaki(a), Xian-Hua Han(b), Tetsuo Inoshit(a), (a=NEC Corporation, b= Yamaguchi University)',
+        team: 'simon787',
+        score: 0.47,
       },
       {
         rank: 3,
-        team: 'Ritsumei',
-        score: 0.9241,
+        team: 'maburto',
+        score: 0.44,
       },
       {
         rank: 4,
-        team: 'Malton',
-        score: 0.9171,
+        team: '_640_',
+        score: 0.39,
       },
       {
         rank: 5,
-        team: 'Shubham Wagh',
-        score: 0.9112,
+        team: 'michaelibrahim',
+        score: 0.38,
       },
       {
         rank: 6,
-        team: 'UCLab',
-        score: 0.9057,
+        team: 'HuQingrui',
+        score: 0.36,
       },
       {
         rank: 7,
-        team: 'liuqijd',
-        score: 0.8987,
+        team: 'tomoon',
+        score: 0.35,
       },
       {
         rank: 8,
-        team: 'Potros',
-        score: 0.8822,
-      },
-      {
-        rank: 9,
-        team: 'Dialga',
-        score: 0.8752,
-      },
-      {
-        rank: 10,
-        team: 'SotaroFushimi',
-        score: 0.8466,
-      },
-      {
-        rank: 11,
-        team: 'Tetsu_roo',
-        score: 0.8118,
-      },
-      {
-        rank: 12,
-        team: 'syoka4156',
-        score: 0.8114,
+        team: 'xmba15',
+        score: 0.18,
       },
     ],
     googleSheetUrl:
-      'https://docs.google.com/spreadsheets/d/1AwZqu9ccUQ81zfICLo8qtU_Bg_KbOv1P3jhWpIb1Fis?usp=sharing',
+      'https://docs.google.com/spreadsheets/d/1nPFyM8RXhV6PmuFqBXl2UWexfimI3N-x5H0cBwKYvHw/edit?usp=sharing',
     photo: {
       awardsCeremony: require('@/assets/img/snapshot/2023-03-13-Percom2023BiRD-AwardsCeremony.jpg'),
     },
