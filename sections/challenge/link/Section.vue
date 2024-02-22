@@ -5,10 +5,9 @@
         <v-row>
           <v-col cols="12">
             <h2 id="challenge-link-section">Tools</h2>
-            <p>(TBD)</p>
           </v-col>
         </v-row>
-        <!--
+
         <v-row>
           <v-col v-for="(item, index) in links" :key="index" cols="12" md="6">
             <v-card class="op-brown lighten-2" width="100%">
@@ -37,7 +36,6 @@
             </v-card>
           </v-col>
         </v-row>
--->
       </v-container>
     </section>
   </section>
@@ -48,28 +46,16 @@ export default {
   data: () => ({
     links: [
       {
-        contentType: 'GitHub',
-        title: 'OpenPack Toolkit',
-        description: 'dataset utilities and documents',
-        url: 'https://github.com/open-pack/openpack-toolkit',
+        contentType: 'Github',
+        title: 'Github tool',
+        description: 'baseline program for tracking',
+        url: 'https://github.com/MakotoITOH/fish_tracking_Colaboratory',
       },
       {
-        contentType: 'GitHub',
-        title: 'OpenPack Torch',
-        description: 'sample code (PyTorch)',
-        url: 'https://github.com/open-pack/openpack-torch',
-      },
-      {
-        contentType: 'YouTube',
-        title: 'OpenPack Dataset Channel',
-        description: 'sample videos',
-        url: 'https://www.youtube.com/channel/UC-AzuKxoJcyOtFi7B3CS4rA',
-      },
-      {
-        contentType: 'Codalab: System for Competition',
-        title: 'OpenPack Challenge 2022',
-        description: 'Submission and evaluation system for this challenge.',
-        url: 'https://codalab.lisn.upsaclay.fr/competitions/7830',
+        contentType: 'Google colaboratory',
+        title: 'Google colab tool',
+        description: 'baseline program for tracking',
+        url: 'https://colab.research.google.com/github/MakotoITOH/fish_tracking_Colaboratory/blob/main/challenge_FTC2024.ipynb',
       },
     ],
   }),

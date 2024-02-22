@@ -96,11 +96,12 @@
         <v-row>
           <v-col cols="12">
             <h2>Cite</h2>
-            <p>(TBD)</p>
+            <p></p>
             <!--            <p>
               If you use the OpenPack dataset or code please cite
               <small>(Updated on Dec 24 2022)</small>:
             </p>
+          -->
             <v-sheet
               color="op-brown lighten-1"
               rounded
@@ -109,17 +110,19 @@
             >
               <v-col cols="12">
                 <p class="font-italic mb-0">
-                  Naoya Yoshimura, Jaime Morales, Takuya Maekawa, Takahiro Hara,
-                  “OpenPack: A Large-scale Dataset for Recognizing Packaging
-                  Works in IoT-enabled Logistic Environments”.
-                  CoRRabs/2212.11152 (2022).
-                  <a href="https://arxiv.org/abs/2212.11152" target="_blank"
-                    >https://arxiv.org/abs/2212.11152</a
+                  Takayuki Niizato, Kotaro Sakamoto, Yoh-ichi Mototake, Hisashi
+                  Murakami, Takenori Tomaru, “Information structure of
+                  heterogeneous criticality in a fish school”. bioRxiv
+                  2024.02.18.578833; doi:
+                  https://doi.org/10.1101/2024.02.18.578833 .
+                  <a
+                    href="https://www.biorxiv.org/content/10.1101/2024.02.18.578833v1"
+                    target="_blank"
+                    >https://www.biorxiv.org/content/10.1101/2024.02.18.578833v1</a
                   >
                 </p>
               </v-col>
             </v-sheet>
--->
           </v-col>
         </v-row>
       </v-container>
