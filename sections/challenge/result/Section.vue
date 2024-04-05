@@ -82,24 +82,28 @@
           </v-simple-table>
         </v-col>
       </v-row>
-      <!--
+
       <v-row>
         <v-col cols="12">
-          <h3>Awards Ceremony @Percom2023 WS BiRD</h3>
+          <h3>
+            Awards Ceremony @International Symposium of Hierarchical
+            Bio-Navigation 2024
+          </h3>
           <p>
-            The awards ceremony was held on March 13, 2023 at Percom2023 WS
-            BiRD. The top 5 winners gathered to discuss their solutions in a
-            poster session. Congratulations again!
+            The awards ceremony was held on March 11, 2024 at International
+            Symposium of Hierarchical Bio-Navigation 2024. The top 1 and 3
+            winners gathered to discuss their solutions in a poster session.
+            Congratulations again!
           </p>
           <v-card class="mx-auto">
             <v-img :src="photo.awardsCeremony" width="100%"> </v-img>
             <v-card-subtitle class="py-1 text-center">
-              Picture with Top-5 Winners @Percom2023 WS BiRD
+              Picture with Top 1&3 Winners @International Symposium of
+              Hierarchical Bio-Navigation 2024
             </v-card-subtitle>
           </v-card>
         </v-col>
       </v-row>
-      -->
     </v-container>
   </section>
 </template>
@@ -182,16 +186,11 @@ export default {
       },
       {
         rank: 6,
-        team: 'HuQingrui',
-        score: 0.36,
-      },
-      {
-        rank: 7,
         team: 'tomoon',
         score: 0.35,
       },
       {
-        rank: 8,
+        rank: 7,
         team: 'xmba15',
         score: 0.18,
       },
@@ -199,7 +198,7 @@ export default {
     googleSheetUrl:
       'https://docs.google.com/spreadsheets/d/1nPFyM8RXhV6PmuFqBXl2UWexfimI3N-x5H0cBwKYvHw/edit?usp=sharing',
     photo: {
-      awardsCeremony: require('@/assets/img/snapshot/2023-03-13-Percom2023BiRD-AwardsCeremony.jpg'),
+      awardsCeremony: require('@/assets/img/snapshot/award_photo.jpg'),
     },
   }),
 }
