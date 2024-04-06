@@ -89,7 +89,7 @@ export default {
       {
         datetime: '2024-03-11',
         title: 'Award Ceremony in the Internationla symposium',
-        titleStyle: 'text-h6',
+        titleStyle: 'text-h6 text-decoration-line-through',
         caption: 'Top 3 awards will be presented',
         color: 'op-brown darken-1',
       },
