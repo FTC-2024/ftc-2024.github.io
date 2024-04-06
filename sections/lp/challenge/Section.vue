@@ -103,7 +103,7 @@ export default {
   data: () => ({
     imgChallengeLogo: require('@/assets/img/brand/OpenPackCHALLENG-white.png'),
     photo: {
-      awardsCeremony: require('@/assets/img/snapshot/2023-03-13-Percom2023BiRD-AwardsCeremony.jpg'),
+      awardsCeremony: require('@/assets/img/snapshot/award_photo.jpg'),
     },
   }),
 }
