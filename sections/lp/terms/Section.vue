@@ -125,6 +125,37 @@
             </v-sheet>
           </v-col>
         </v-row>
+        <v-row>
+          <v-col cols="12">
+            <h2>Cite</h2>
+            <p></p>
+            <!--            <p>
+              If you use the OpenPack dataset or code please cite
+              <small>(Updated on Dec 24 2022)</small>:
+            </p>
+          -->
+            <v-sheet
+              color="op-brown lighten-1"
+              rounded
+              :elevation="cardElevation"
+              width="100%"
+            >
+              <v-col cols="12">
+                <p class="font-italic mb-0">
+                  Makoto M. Itoh, Qingrui Hu, Takayuki Niizato, Hiroaki
+                  Kawashima, Keisuke Fujii, “Fish Tracking Challenge 2024: A
+                  Multi-Object Tracking Competition with Sweetfish Schooling
+                  Data”. <br />
+                  arXiv preprint arXiv:2409.00339.
+                  https://doi.org/10.48550/arXiv.2409.00339 <br />
+                  <a href="http://arxiv.org/abs/2409.00339" target="_blank"
+                    >http://arxiv.org/abs/2409.00339</a
+                  >
+                </p>
+              </v-col>
+            </v-sheet>
+          </v-col>
+        </v-row>
       </v-container>
     </section>
   </section>
